@@ -3,7 +3,7 @@ entries:
   updated-open5gs:
   - apiVersion: v2
     appVersion: 2.4.4
-    created: "2022-04-20T13:18:12.585183675Z"
+    created: "2022-04-20T13:51:26.965857782Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -14,8 +14,7 @@ entries:
       name: mongodb
       repository: https://charts.bitnami.com/bitnami
       version: ~9.2.2
-    description: 'Helm chart to deploy Open5gs services on Kubernetes. '
-    digest: f994d58492a4eb3f2f52c713b107a161d7f7c5aa1459d5fca3a4c861f0b56485
+    digest: 82807e665ff28ed69707335e62257df92fff5eab916d9f0c8320ba13a10d33d8
     home: https://github.com/gradiant/openverso-charts
     icon: https://open5gs.org/assets/img/open5gs_logo.png
     keywords:
@@ -30,4 +29,4 @@ entries:
     urls:
     - https://ba3ali84.github.io/helm-example/updated-open5gs-0.4.1.tgz
     version: 0.4.1
-generated: "2022-04-20T13:18:12.578795428Z"
+generated: "2022-04-20T13:51:26.960519295Z"
