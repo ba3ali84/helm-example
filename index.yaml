@@ -3,7 +3,7 @@ entries:
   agile-5gc-AMF:
   - apiVersion: v2
     appVersion: 2.4.4
-    created: "2022-04-28T09:58:01.979803175Z"
+    created: "2022-04-28T10:10:36.100329114Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -27,6 +27,6 @@ entries:
     sources:
     - http://open5gs.org
     urls:
-    - https://ba3ali84.github.io/helm-example/agile-5gc-AMF-0.0.1.tgz
+    - https://ba3ali84.github.io/helm-example/agile-5gc-amf-0.0.1.tgz
     version: 0.0.1
-generated: "2022-04-28T09:58:01.970288608Z"
+generated: "2022-04-28T10:10:36.093876511Z"
