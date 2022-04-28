@@ -3,7 +3,7 @@ entries:
   agile-5gc:
   - apiVersion: v2
     appVersion: 2.4.4
-    created: "2022-04-27T10:40:58.683206426Z"
+    created: "2022-04-28T09:06:08.677883841Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -29,4 +29,62 @@ entries:
     urls:
     - https://ba3ali84.github.io/helm-example/agile-5gc-0.0.1.tgz
     version: 0.0.1
-generated: "2022-04-27T10:40:58.677919789Z"
+  agile-5gc-AMF:
+  - apiVersion: v2
+    appVersion: 2.4.4
+    created: "2022-04-28T09:06:08.686500476Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: ~9.2.2
+    digest: 6a5d93b575cf1fb995bdc3758823b0886bc7240d74b139d56422b28c53534303
+    home: https://github.com/gradiant/openverso-charts
+    icon: https://open5gs.org/assets/img/open5gs_logo.png
+    keywords:
+    - epc
+    - ngc
+    maintainers:
+    - email: cgiraldo@gradiant.org
+      name: cgiraldo
+    name: agile-5gc-AMF
+    sources:
+    - http://open5gs.org
+    urls:
+    - https://ba3ali84.github.io/helm-example/agile-5gc-AMF-0.0.1.tgz
+    version: 0.0.1
+  agile-5gc-UPF:
+  - apiVersion: v2
+    appVersion: 2.4.4
+    created: "2022-04-28T09:06:08.691734372Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: ~9.2.2
+    digest: 76b243989e12cce4e0f9ca08ec3095d7b67bcab518e6946f5694cf672b8dacc8
+    home: https://github.com/gradiant/openverso-charts
+    icon: https://open5gs.org/assets/img/open5gs_logo.png
+    keywords:
+    - epc
+    - ngc
+    maintainers:
+    - email: cgiraldo@gradiant.org
+      name: cgiraldo
+    name: agile-5gc-UPF
+    sources:
+    - http://open5gs.org
+    urls:
+    - https://ba3ali84.github.io/helm-example/agile-5gc-UPF-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-04-28T09:06:08.671157809Z"
