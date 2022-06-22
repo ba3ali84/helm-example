@@ -3,7 +3,7 @@ entries:
   agile-5gc:
   - apiVersion: v2
     appVersion: 2.4.4
-    created: "2022-06-21T15:00:24.454600203Z"
+    created: "2022-06-22T09:21:34.155419678Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -14,7 +14,7 @@ entries:
       name: mongodb
       repository: https://charts.bitnami.com/bitnami
       version: ~9.2.2
-    digest: b323374f4ce2c68d2bf6917689f7c60c3cd507b390588c3e93f81e613791705c
+    digest: 92760609629cb9d2aeb9cfd4515cae068d5e09cbb311e29b0f42818ece0f6fdc
     home: https://github.com/gradiant/openverso-charts
     icon: https://open5gs.org/assets/img/open5gs_logo.png
     keywords:
@@ -31,7 +31,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.4.4
-    created: "2022-06-21T15:00:24.449572153Z"
+    created: "2022-06-22T09:21:34.147767439Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -57,4 +57,4 @@ entries:
     urls:
     - https://ba3ali84.github.io/helm-example/agile-5gc-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-21T15:00:24.442536071Z"
+generated: "2022-06-22T09:21:34.141140185Z"
